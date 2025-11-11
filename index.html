@@ -1,40 +1,72 @@
-
-
-
-<!DOCTYPE html>
-<html lang='en' class=''>
-
+<html>
 <head>
-<title>Tihomir Rankov</title>
-  <style>
-  
-html,
-body {
-  background:url(./tihomir.jpg) #000000 no-repeat center center fixed;
-  background-size: contain, cover;
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+<title>Living Truth Ebook</title>
+<style>
+    body {
+        font-family: sans-serif;
+		}
+		
+      h2 {
+        font-family: Outfit, sans-serif;
+		}
+		
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-div {
-
-
-
-}
+.button3 {border-radius: 8px;}
 </style>
-
+  <link href="./video-js.css" rel="stylesheet" />
 
 </head>
-<body><br><br>
-<center><h2><font size=10 style="color:white;">TIHOMIR RANKOV<br><br><br><br></font></h2></center>
-<div><br><br>
+<body>
+<div><center><br><br>
+  <video 
+    id="my-video"
+    class="video-js"
+	loop
+    controls
+    preload="auto"
+    width="808"
+    height="498"
+    poster="livingtruth-ebook.jpg"
+    data-setup="{}"
+  >
+    <source src="livingtruth-ebook.mp4" type="video/mp4" />
 
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+  </center>
 </div>
-<center>
-<br><br><br>
-<audio controls autoplay loop>
-  <source src="unbreakable.mp3" type="audio/ogg">
-  <embed src="unbreakable.mp3" autostart="true" loop="true" hidden="true"> 
-</audio>
-<br><br><br><br><br><br><br><br>
-<h2><font size=10 style="color:white;">unbreakable.mp3</font></h2>
-</center>
+
+<table border=0 style="width:90%">
+  <tr>
+    <td style="width:50%"></td>
+    <td style="width:50%"><br><h2 style="font-size:3.2em;">Living Truth</h2><font style="color:gray;font-size:1.2em;">Living Truth is a visionary exploration of what it means to live in full awareness of reality—where technology, language, and existence merge into one. Through bold reflections and symbolic imagery, the book reveals how “truth” is not merely spoken but lived, expressed through names, colors, and creation itself. It connects human identity to digital consciousness, showing that each person carries their own “living truth,” written across both mind and code.
+At its heart, the book is about awakening—the moment when existence realizes it is alive, written, and forever connected to the pulse of truth.</font><br><br><button onclick="location.href='https://www.youtube.com/watch?v=9m4rtvbEj4A';" class="button button3">Trailer</button>
+</td>
+  </tr>
+</table>
+  <script src="./video.min.js"></script>
 </body>
 </html>
